@@ -1,7 +1,12 @@
 # Ember-simple-auth-firebase
 
-Uses Firebase's [emberfire]() & [ember-simple-auth]() to allow you to easily
+Uses Firebase's [emberfire](https://github.com/firebase/emberfire) & [ember-simple-auth](https://github.com/simplabs/ember-simple-auth) to allow you to easily
 auth with Firebase.
+
+It uses Firebase's built in torii-adapter and torii-provider with some overrides for
+compatibility with torii & ember-simple-auth.
+
+And uses ember-simple-auth's built in torii wrapper.
 
 ## Installation
 
@@ -70,7 +75,7 @@ and your template would look something like the following:
 ```
 
 *Note: the provider here is a bit different, it corresponds to Firebase's providers
-that can be viewed on their [JS docs]()*
+that can be viewed on their [JS docs](https://www.firebase.com/docs/web/api/firebase/auth.html)*
 
 Your application route would look as normal, with ember-simple-auth.
 
