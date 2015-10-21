@@ -1,6 +1,6 @@
 {
   "name": "ember-simple-auth-firebase",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Firebase + ember-simple-auth",
   "directories": {
     "doc": "doc",
