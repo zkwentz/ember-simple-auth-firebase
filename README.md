@@ -71,7 +71,7 @@ and your template would look something like the following:
 <h1>Login</h1>
 <input value={{email}} type="text" placeholder="you@email.com" required>
 <input value={{password}} type="password" placeholder="Password" required>
-<button {[action 'authenticate' 'password'}}>Login</button>
+<button {{action 'authenticate' 'password'}}>Login</button>
 ```
 
 *Note: the provider here is a bit different, it corresponds to Firebase's providers
